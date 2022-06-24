@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(pexels-aleksandar-pasaric-2068411.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+} 
+
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+    margin-top: 25px;
+    
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 50px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+    font-family:Arial;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: rgb(255, 157, 0);
+    font-size: xx-large;
+    transition: 0.3s ease;
+}
+nav ul li a:hover
+{
+    color: rgba(255, 150, 3, 0.94);
+    font-size: xx-large;
+    transition: 0.3s ease;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(227, 119, 12);
+    font-size: 28px;
+}
+.search
+{  
+  width: 900px;
+  
+  margin-left: 5 px;
+display: flex;
+ 
+}
+.srch
+{  
+   font-family:  'Times New Roman' ;
+   background: transparent;
+   width: 800px;
+   height: 40px;
+   
+border: 1px solid #e97909bc;
+ margin-top: 20px;
+ border-right: none;
+ padding:10px ;
+ font-size: 20px;
+ float: left;
+border-top-left-radius: 2px;
+border-bottom-right-radius:2px ;
+}
+.btn 
+{  
+	width: 100px;
+	height: 40px;
+	
+	background:#e97909bc;
+	border: 2px solid #e97909bc;
+   margin-top:  20px;
+   color: white;
+   font-size: 20px;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px; 
+}
+.btn:focus
+{
+   outline: none;
+
+
+}
+.srch:focus
+{
+  
+ outline: none;
+
+}
+
+.content{
+    width: 1200px;
+
+    
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content img
+{
+
+width: 780px;
+height:600px;
+filter: invert();
+padding-top: 30px;
+position: relative;
+}
+
+
+
+
+.form{
+    width: 260px;
+    height: 400px;
+    margin-top: -40px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    transform: translate(0%,-5%);
+    border-radius: 20px;
+    
+    
+
+    padding: 80px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.9 ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
